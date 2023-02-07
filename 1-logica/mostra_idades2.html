@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+    let ano = 2000;
+
+    function pulaLinha(){
+        document.write("<br>");
+    }
+
+    const print = (msg) => {
+        document.write(msg);
+        pulaLinha();
+    }
+
+	print("Flávio nasceu em " + (ano -39));
+	print("Joaquim nasceu em " + (ano -20));
+	print("Barney nasceu em " + (ano -40));
+
+    const media = (40 + 39 + 30)/3
+
+    print("<hr> A media das idades é: " + Math.round(media))
+    print("<big>big</big>")
+</script>
