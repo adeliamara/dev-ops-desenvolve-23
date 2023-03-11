@@ -24,6 +24,16 @@ sudo apt update
 sudo apt instal openssh-server
 ~~~
 
+5. Como saber o ip na maquina linux?
+
+~~~ 
+ifconfig
+~~~
+
+* obs: precisa ter o net-tools. para isso faça 
+~~~
+sudo apt install net-tools
+~~~
 
 <strong> Tive um erro aqui na etapa 1</strong>
 
