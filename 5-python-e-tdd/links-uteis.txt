@@ -1,0 +1,18 @@
+comandos uteis:
+
+pytest --cov=codigo tests --cov-report term-missing
+
+pytest -vm  
+
+pytest --cov
+
+pytest --cov=codigo tests
+
+
+pip freeze > requirements.txt
+
+pytest -v -m calcular_bonus   
+
+
+pytest --cov=codigo tests --cov-report html
+
