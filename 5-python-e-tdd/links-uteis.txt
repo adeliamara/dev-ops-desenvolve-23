@@ -1,3 +1,8 @@
+Tipos de testes: quais os principais e por que utilizá-los? https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los
+Por que e o que é possível testar? https://www.alura.com.br/artigos/por-que-e-o-que-e-possivel-testar
+Montando cenarios de teste com o pytest: https://www.alura.com.br/artigos/montando-cenarios-de-testes-com-o-pytest
+
+
 comandos uteis:
 
 pytest --cov=codigo tests --cov-report term-missing
@@ -16,3 +21,6 @@ pytest -v -m calcular_bonus
 
 pytest --cov=codigo tests --cov-report html
 
+
+a configuração do arquivo .coveragerc source = diretorio permite rodar aplenas com
+pytest --cov
